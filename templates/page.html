@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      *{
+    margin: 0;
+}
+html{
+    background-color: #ffffff;
+}
+body{
+    font: 16px/1.6 arial, sans-serif;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+.footer{
+    background-color: #040a18;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 60px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+@media(max-height:800px){
+    footer{
+        position: static;
+    }
+    header{
+        padding-top: 40px;
+    }
+}
+.footer .footer-left{
+    width: 30%;
+}
+.footer h3{
+    color: #f5f5f5;
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer .footer-left img{
+    width: 25%;
+    vertical-align: middle;
+}
+.footer .footer-left .logo{
+    width: 100px;
+}
+.footer .footer-copyright{
+    color: #8f9296;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 10%;
+}
+.footer .footer-center{
+    width: 35%;
+}
+.footer .footer-center i{
+    background-color: #33383b;
+    columns: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+.footer .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+.footer .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0px;
+}
+.footer .footer-center p span{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+.footer .footer-center p a{
+    color: rgb(22,255,177);
+    text-decoration: none;
+}
+.footer .footer-media a:hover{
+    background-color: rgb(228, 49, 220);
+}
+@media(max-width:880px){
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    .footer .footer-center i{
+        margin-left: 0px;
+    }
+}
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Responsive Footer</title>
+  </head>
+  <body>
+  <header>
+  </header>
+  <footer class="footer">
+    <div class="footer-left">
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/128/4179/4179646.png" alt="">
+        </div>
+        <p class="footer-copyright">2023 Pratidatt </p>
+    </div>
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Jalgaon</span> Waghod,Raver<p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+91 9766465235</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="#">vishalchaudhari092@gmail.com></a></p>
+        </div>
+    </div>
+
+    <div class="footer-right">
+        <p class="footer-about">
+            <span>About</span>
+            It's all about data!
+        </p>
+        <div class="footer-media">
+            <a href="#"><i class='fa fa-twitter-square teal-color'></i></a>
+            <a href="#"><i class='fa fa-linkedin-square teal-color'></i></a>
+            <a href="#"><i class="fa fa-git-square teal-color"></i></a>
+        </div>
+    </div>
+
+
+  </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+  </body>
+</html>

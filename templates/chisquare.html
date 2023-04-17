@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Chi-Square Goodness of Fit Test</title>
+    <style>
+      body {
+        font-family: Times New Roman, sans-serif;
+        background-color: #F5F5F5;
+      }
+
+      h1 {
+        color: #d84e9f;
+      }
+
+      p {
+        background-color: #96f5d5;
+        color: #2c1010;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chi-Square Goodness of Fit Test Results</h1>
+    <p>{{ result }}</p>
+    <img src="{{ url_for('static', filename='static/graph_filename') }}" alt="Graph" width="100px" height="100px">
+  </body>
+</html>
